@@ -926,6 +926,11 @@
       background-color: var(--color-white);
     }
   }
+  .max-md\:px-2 {
+    @media (width < 48rem) {
+      padding-inline: calc(var(--spacing) * 2);
+    }
+  }
   .max-md\:px-8 {
     @media (width < 48rem) {
       padding-inline: calc(var(--spacing) * 8);
